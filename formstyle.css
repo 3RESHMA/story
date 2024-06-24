@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+form
+{
+    background-color: hsl(228, 95%, 45%);
+    width: 75%;
+    border: 2px solid rgb(231, 13, 209);
+    margin: 50px;
+}
+label
+{
+    color: aqua;
+    padding: 10px;
+}
+input[Type=text]
+{
+    height: 35px;
+    width: 200px;
+}
+button
+{
+    background-color: black;
+    color: blue;
+    padding: 20px;
+    border-radius: 25px;
+}

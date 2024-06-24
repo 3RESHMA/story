@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tag</title>
+    <link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+    <form>
+        <div>
+        <label>First Name:</label>
+        <input type="text" placeholder="Name" required><br><br>
+        </div>
+
+        <div>
+        <label>Last Name:</label> 
+        <input type="text" placeholder="Father Name" required><br><br>
+        </div>
+
+        <div>
+        <label>Gender:</label>
+        <input type="radio"> Male
+        <input type="radio"> Female
+        <input type="radio"> Transgender <br><br>
+        </div>
+        
+        <div><label>Country:</label>
+        <input type="checkbox"> Indian 
+        <input type="checkbox"> Foreigner<br><br>
+        </div>
+
+        <label> City:</label>
+        <select>
+            <option> Chennai</option>
+            <option> Thiruvallur </option>
+            <option> Salem </option>
+            <option> Namakkal </option>
+            <option> Trichy </option>
+            <option> Madurai </option>
+        </select><br><br>
+        <label> Address:</label>
+        <textarea rows="3">
+
+        </textarea><br><br>
+        <label>Age:</label>
+        <input type="number"><br><br>
+        <label>Password:</label>
+        <input type="password"
+        pattern="(?=.*\d) (?=.*[a-z]) (?=*[A-Z]).{6,}"
+        title="Must contains at least one number and one uppercase and lowercaseletter, and at least 6 or more character" 
+        required><br><br>
+
+        <label> Email:</label>
+        <input type="Email" required><br><br>
+        <button> LOGIN </button>  
+    </form>
+</body>
+</html>
